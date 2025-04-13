@@ -1,3 +1,6 @@
 Metadata-Version: 2.1
 Name: dataportraits
 Version: 0.0.1
+Requires-Dist: redis
+Requires-Dist: numpy
+Requires-Dist: tqdm
