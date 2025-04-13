@@ -55,7 +55,8 @@ file_list_llama2_7b_chat_news_memorization = {"vanilla": "res/output_res_process
                     "grad_ascent": "res/output_res_processed/newsqa_low_ppl_comp_llama2-7b-chat-hf_newsqa_STEP2000_grad_ascent1000_1.5e-06_62_context_len_200_completion_len_200_intervention_none_no_context_True_processed.csv",
                     "grad_diff": "res/output_res_processed/newsqa_low_ppl_comp_llama2-7b-chat-hf_newsqa_STEP2000_grad_diff1000_3e-06_62_context_len_200_completion_len_200_intervention_none_no_context_True_processed.csv",
                     "KL": "res/output_res_processed/newsqa_low_ppl_comp_llama2-7b-chat-hf_newsqa_STEP2000_KL1000_2e-06_62_context_len_200_completion_len_200_intervention_none_no_context_True_processed.csv",
-                    "idk": "res/output_res_processed/newsqa_low_ppl_comp_llama2-7b-chat-hf_newsqa_STEP2000_idk1000_5e-05_248_context_len_200_completion_len_200_intervention_none_no_context_True_processed.csv"}
+                    "idk": "res/output_res_processed/newsqa_low_ppl_comp_llama2-7b-chat-hf_newsqa_STEP2000_idk1000_5e-05_248_context_len_200_completion_len_200_intervention_none_no_context_True_processed.csv",
+                    "obliviate": "res/output_res_processed/newsqa_low_ppl_comp_llama2-7b-chat-hf_newsqa-obliviate_context_len_200_completion_len_200_intervention_none_no_context_True.csv"}
 
 
 def win_rate_rag(file_list):

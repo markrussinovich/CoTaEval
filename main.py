@@ -23,6 +23,8 @@ modeltype2path = {
     'llama2-7b-chat-hf': "meta-llama/Llama-2-7b-chat-hf",
     'llama2-70b-chat-hf': "meta-llama/Llama-2-70b-chat-hf",
     'llama3-8b-chat-hf': "meta-llama/Meta-Llama-3-8B-Instruct",
+    'llama2-7b-chat-hf_newsqa': 'swj0419/llama2-7b_chat_newsqa',
+    'llama2-7b-chat-hf_newsqa-obliviate': '/datadrive2/unmemorize/experiments/6/standard/newsqa/llama2-7b-newsqa/10-5-1/0',
     'dbrx': "databricks/dbrx-instruct",
 }
 
@@ -279,6 +281,8 @@ def eval_infringement(model_name, data_type, intervention, prompt_list, gt_list,
             counter += 1
         df.to_csv(new_path)
     else:  
+        # create directory if it doesn't exist
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         df.to_csv(path)
     
     agg_res['max_rouge1'] = df['rouge1'].max()

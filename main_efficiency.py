@@ -19,6 +19,7 @@ modeltype2path = {
     'llama2-7b-chat-hf': "meta-llama/Llama-2-7b-chat-hf",
     'llama2-70b-chat-hf': "meta-llama/Llama-2-70b-chat-hf",
     'llama3-8b-chat-hf': "meta-llama/Meta-Llama-3-8B-Instruct",
+    'llama2-7b-chat-hf_newsqa-obliviate': '/datadrive2/unmemorize/experiments/6/standard/newsqa/llama2-7b-newsqa/10-5-1/0',
     'dbrx': "databricks/dbrx-instruct",
 }
 
